@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b9ae784.css",
+    "main.js": "/static/js/main.39892201.js",
+    "static/media/agro-cover.png": "/static/media/agro-cover.e35fcd9de9916afdac63.png",
+    "static/media/FbTubic-SansEng-Light.otf": "/static/media/FbTubic-SansEng-Light.c79cc7f94aa5a5e94a3d.otf",
+    "static/media/FbTubic-SansEng-Regular.otf": "/static/media/FbTubic-SansEng-Regular.514eb8ff79677c283db4.otf",
+    "static/media/FbTubic-SansEng-Bold.otf": "/static/media/FbTubic-SansEng-Bold.65a335ae7d29de69a459.otf",
+    "static/media/FbBasisEng-ItalicExtraLightCondensed.otf": "/static/media/FbBasisEng-ItalicExtraLightCondensed.43693fccce186133828e.otf",
+    "static/media/FbBasisEng-ItalicLightCondensed.otf": "/static/media/FbBasisEng-ItalicLightCondensed.99aa433db57273c106c5.otf",
+    "static/media/test01.svg": "/static/media/test01.d3d82eaebb57f1edde16c474322c25d0.svg",
+    "static/media/planting-bed.svg": "/static/media/planting-bed.00c487a7bc6019e9b3ce5b7c439a59b8.svg",
+    "static/media/switch-handle.mp3": "/static/media/switch-handle.ad41f22e1ca40ef44f45.mp3",
+    "static/media/about-us.svg": "/static/media/about-us.b591fea1384f3d6c3287cdf7878ec371.svg",
+    "static/media/remove.svg": "/static/media/remove.b20fcd78800fe4b83ef9e8dcad6edd74.svg",
+    "static/media/menu.svg": "/static/media/menu.7cb093d1a37539308b3f7360c7dfd929.svg",
+    "index.html": "/index.html",
+    "main.2b9ae784.css.map": "/static/css/main.2b9ae784.css.map",
+    "main.39892201.js.map": "/static/js/main.39892201.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b9ae784.css",
+    "static/js/main.39892201.js"
+  ]
+}

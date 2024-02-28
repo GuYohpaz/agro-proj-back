@@ -19,10 +19,10 @@ async function query() {
 async function update(bag) {
 
     try {
-
+logger.info(bag)
         var id = new ObjectId(bag._id)
         const collection = await dbService.getCollection('bag')
-        await collection.updateOne({ _id: id }, { $inc: { amount: bag.amount } })
+        await collection.updateOne({ _id: id }, { $set: { amount: bag.amount } })
         logger.info('the bag', bag)
     } catch (err) {
 

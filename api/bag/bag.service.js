@@ -15,7 +15,6 @@ async function query() {
     }
 }
 
-// Fix 
 async function update(bag) {
 
     try {

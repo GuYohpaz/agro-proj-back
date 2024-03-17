@@ -1,10 +1,8 @@
 const dbService = require('../../services/db.service')
-// const ObjectId = require('mongodb').ObjectId
 const logger = require('../../services/logger.service')
 
 
-async function query(filterBy) {
-    // const criteria = _buildCriteria(filterBy)
+async function query() {
     try {
         const collection = await dbService.getCollection('shape')
         var shapes = await collection.find().toArray()
@@ -58,42 +56,10 @@ async function add(shape) {
     }
 }
 
-// async function calculateTotalShapesCapacity() {
-
-//     const shapes = await query()
-//     const totalShapesCapacity = shapes.reduce((accumulator, shape) => {
-
-//         return accumulator + shape.capacity
-
-//     }, 0)
-
-//     return totalShapesCapacity
-// }
-
-
-// async function restartDataBase() {
-//     const shapes = await query()
-//     console.log(shapes);
-
-//     for (let i = 0; i < shapes.length; i++) {
-//         const shape = shapes[i];
-//         console.log(shape);
-//         if (shape.capacity > 0) {
-
-//             const collection = await dbService.getCollection('shape')
-//             await collection.deleteOne({ _id: ObjectId(shape._id) })
-
-
-//         }
-//     }
-// }
-
-
 
 module.exports = {
     remove,
     query,
     getById,
     add,
-    // restartDataBase
 }

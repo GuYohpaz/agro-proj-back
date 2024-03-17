@@ -16,12 +16,13 @@ async function getBags(req, res) {
 
 async function updateBagAmount(req, res) {
   try {
-// all this shit was because i called for req.query rather req.body !!!!!! 
+
     const bag = req.body
     const result = await bagService.update(bag)
     res.json(result)
 
   } catch (err) {
+    
     logger.error('Failed to update bag', err)
     res.status(500).send({ err: 'Failed to update bag' })
   }
